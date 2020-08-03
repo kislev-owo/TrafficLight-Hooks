@@ -1,13 +1,33 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.topTrafic {
+    height: 60px;
+    width: 10px;
+    background-color: black;
+    flex-direction: column;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+ .square {
+    background-color: black;
+    border-radius: 10px;
+    width: 150px;
+    height:350px;
+    flex-direction: column;
+}
 
-*/
+.light {
+   
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.shane {
+    box-shadow: -5px -5px 100px 60px rgb(241, 234, 128);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
